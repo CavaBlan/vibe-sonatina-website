@@ -1,4 +1,11 @@
 {
+  "name": "vibe-sonatina-website",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
   "dependencies": {
     "react-icons": "^5.5.0"
   }
