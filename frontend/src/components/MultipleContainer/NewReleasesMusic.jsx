@@ -36,7 +36,7 @@ function NewReleasesMusic() {
   }, []);
 
   return (
-    <div className="w-full border-4 rounded-2xl ">
+    <div className="w-full border-t-2 border-gray-500">
       <div className="mt-5 mx-5 text-4xl font-bold">New Releases</div>
       <div className="w-full grid grid-cols-5 gap-3 justify-items-center">
         {loading ? (
