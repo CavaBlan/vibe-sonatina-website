@@ -33,12 +33,12 @@ function TrackItem({ size = "m", trackInfo }) {
   };
 
   return (
-    <div className="bg-white rounded-xl hover:outline outline-gray-500">
+    <div className="bg-white rounded-xl hover:bg-gray-100 outline-gray-500">
       <div className={`${ItemSize[size]} w-full flex`}>
         <Link to="/detail" state={{ trackInfo }}>
           <div className="h-full w-4/5 flex items-center cursor-pointer">
             <img
-              className={`${imgSize[size]} rounded-xl p-1`}
+              className={`${imgSize[size]} rounded-xl`}
               src={trackInfo.album.cover}
               alt="name"
             />
